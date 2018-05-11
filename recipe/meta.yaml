@@ -1,6 +1,6 @@
 {% set name = "pyiron_dft" %}
-{% set version = "0.1.3" %}
-{% set sha256 = "4fa6e0fcb58709a750530e5613688837e01aa0f8e7c8e040179d28909e5af092" %}
+{% set version = "0.1.5" %}
+{% set sha256 = "9a35c9e556e49c77834406815af11f5850ab724b134c556bc35628137ee8f1cf" %}
 
 package:
   name: {{ name|lower }}
