@@ -20,7 +20,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-
+    - setuptools
   run:
     - python >={{ python_min }}
     - pyiron_base
@@ -51,4 +51,3 @@ extra:
   recipe-maintainers:
     - pyiron-runner
     - jan-janssen
-    - sudarsan1989
